@@ -1,6 +1,6 @@
 import { createMuiTheme } from "@material-ui/core/styles";
 import createBreakpoints from "@material-ui/core/styles/createBreakpoints";
-import { red, lightGreen, grey, orange } from "@material-ui/core/colors";
+import { lightGreen, grey, orange } from "@material-ui/core/colors";
 
 // Create a theme instance.
 const breakpoints = createBreakpoints({});
@@ -29,9 +29,6 @@ const theme = createMuiTheme({
     },
     lightGreen: {
       main: lightGreen,
-    },
-    grey: {
-      main: grey,
     },
     error : {
       main: orange.A400

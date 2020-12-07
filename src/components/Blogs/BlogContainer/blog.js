@@ -55,9 +55,6 @@ export default function ComplexGrid() {
             title="Live from space album cover"
           />
           </Card>
-            {/* <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src="https://source.unsplash.com/random" />
-            </ButtonBase> */}
           </Grid>
           <Grid item xs={12} sm={8}   container className={classes.details}>
             <Grid item xs container direction="column" >
@@ -68,9 +65,6 @@ export default function ComplexGrid() {
                 <Typography variant="h5" gutterBottom style={{fontWeight: 'bold'}}>
                   Phone looks premium under the gradient light
                 </Typography>
-                {/* <Typography variant="body2" color="textSecondary">
-                  It features a large set of commonly used UI components so that developers can focus on adding functionality to applications instead of spending so much time on UI implementation
-                </Typography> */}
               </Grid>
               <Grid item>
                 <Typography variant="body2" >
