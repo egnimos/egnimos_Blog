@@ -1,7 +1,7 @@
 
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import HeaderContainer from "../Blogs/BlogContainer/header";
+import HeaderContainer from "../Navbar/Navbar";
 import BodyContent from "../Body/Content";
 import Blog from '../Blogs/BlogContainer/blog'
 import BlogCard from '../Blogs/BlogContainer/blogCard'

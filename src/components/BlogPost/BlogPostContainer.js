@@ -4,6 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Title from './BlogPostTitle'
 import Details from './BlogPostDetails'
+import Navbar from '../Navbar/Navbar'
 
 
 
@@ -29,6 +30,9 @@ export default function CenteredGrid() {
   return (
     <div className={classes.root}>
       <Grid container direction="column" justify="flex-start" alignItems="center" >
+        <Grid item xs={12}>
+          <Navbar/>
+        </Grid>
         <Grid item xs={12}>
           <Title/>
         </Grid>

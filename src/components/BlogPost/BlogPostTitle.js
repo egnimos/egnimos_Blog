@@ -10,6 +10,7 @@ import Button from '@material-ui/core/Button';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    marginTop: '70px'
   },
   paper: {
   [theme.breakpoints.up('sm')]: {
