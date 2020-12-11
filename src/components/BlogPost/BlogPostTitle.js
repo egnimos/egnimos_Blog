@@ -5,7 +5,6 @@ import Paper from '@material-ui/core/Paper';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,13 +25,8 @@ const useStyles = makeStyles((theme) => ({
     
   },
   cover: {
-    //   minWidth: '200px',
-    //   width: '800px',
     height: '500px',
     margin:'auto',
-    //  [theme.breakpoints.down('lg')]: {
-    //     maxHeight: '400px'
-    // },
     [theme.breakpoints.down('md')]: {
         maxHeight: '400px'
     },

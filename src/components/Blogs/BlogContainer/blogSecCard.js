@@ -25,13 +25,8 @@ const useStyles = makeStyles((theme) => ({
     
   },
   cover: {
-    //   minWidth: '200px',
-    //   width: '800px',
     height: '500px',
     margin:'auto',
-    //  [theme.breakpoints.down('lg')]: {
-    //     maxHeight: '400px'
-    // },
     [theme.breakpoints.down('md')]: {
         maxHeight: '400px'
     },
@@ -71,9 +66,6 @@ export default function ComplexGrid() {
             title="Live from space album cover"
           />
           </Card>
-            {/* <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src="https://source.unsplash.com/random" />
-            </ButtonBase> */}
           </Grid>
           <Grid item xs={12} container className={classes.details}>
             <Grid item xs container  direction="column" >

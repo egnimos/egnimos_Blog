@@ -2,9 +2,7 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import HeaderContainer from "../Navbar/Navbar";
-import BodyContent from "../Body/Content";
 import Blog from '../Blogs/BlogContainer/blog'
-import BlogCard from '../Blogs/BlogContainer/blogCard'
 
 export default function NestedGrid() {
   return (
@@ -22,20 +20,7 @@ export default function NestedGrid() {
         >
           <Blog />
         </Grid>
-        <Grid 
-          container
-        >
-          <BlogCard />
-        </Grid>
-        <Grid 
-          container
-        >
-          <BodyContent />
-        </Grid>
       </Grid>
-      {/* <Grid item xs={12} sm={4} md={3}>
-        <SideBarContainer />
-      </Grid> */}
     </Grid>
   );
 }

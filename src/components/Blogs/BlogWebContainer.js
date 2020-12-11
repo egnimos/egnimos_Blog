@@ -1,11 +1,10 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import SideBarContainer from "../Sidebar/SidebarContainer";
 import BlogBigCard from './BlogContainer/blogSecCard';
+import SideBarContainer from './SideContainer/blogSideContainer'
 import BlogHorizonContainer from './blogHorizonContainer';
 import BlogVerticalData from './blogVerticalContainer';
 import Hidden from '@material-ui/core/Hidden';
-
 
 
 export default function NestedGrid() {
@@ -15,7 +14,7 @@ export default function NestedGrid() {
         <Grid item sm={12}  md ={8}>
           <BlogBigCard />
         </Grid>
-         <Hidden smDown>
+        <Hidden smDown>
             <Grid
             item sm={5} md ={4}
             style={{

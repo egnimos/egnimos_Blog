@@ -5,20 +5,13 @@ import Paper from '@material-ui/core/Paper';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    // padding: '40px' 
   },
   paper: {
-  // [theme.breakpoints.up('sm')]: {
-  //   padding: theme.spacing(2),
-  //   },
-  //   margin: 'auto',
-  //   maxWidth: '900px',
-  //   boxShadow: 'none'
+    boxShadow:'none'
   },
   image: {
     width: 300,
@@ -26,13 +19,8 @@ const useStyles = makeStyles((theme) => ({
     
   },
   cover: {
-    //   minWidth: '200px',
-    //   width: '800px',
     height: '300px',
     margin:'auto',
-    //  [theme.breakpoints.down('lg')]: {
-    //     maxHeight: '400px'
-    // },
     [theme.breakpoints.down('md')]: {
         maxHeight: '400px'
     },
@@ -50,10 +38,6 @@ const useStyles = makeStyles((theme) => ({
   },
   details : {
       margin: '20px',
-    // [theme.breakpoints.up("sm")]: {
-    //   paddingTop: '10px',
-    //   paddingLeft: '30px'
-    // }
   },
   bold: {
     fontWeight: '600',
@@ -72,7 +56,7 @@ export default function ComplexGrid() {
           <Grid item xs={12} container className={classes.details}>
             <Grid item xs container  direction="column"  >
               <Grid item xs>
-                <Typography gutterBottom variant="h5" gutterBottom style={{fontWeight: 'bold'}}>
+                <Typography gutterBottom variant="h5" style={{fontWeight: 'bold'}}>
                   1. How to optimize your Facebook & Instagram 
                 </Typography>
                 <Typography gutterBottom variant="subtitle1" className={classes.bold}  >
@@ -102,7 +86,7 @@ export default function ComplexGrid() {
               <Grid item xs>
                 <Typography variant="subtitle1" gutterBottom className={classes.bold}>
                   How How to optimize your Fb & Instagram video ads for success and honour
-                  How to optimize your Fb gram video ads for success and honourto optimize your Fb & Instagram video ads for success and honour
+                  Ho optimize your Fb gram video ads for success and honourto optimize your Fb & Instagram video ads for success and honour
                   How to optimize your Fb & Insdeo ads for sus and honour
                   How to optimize your Fb & Instagram video ads for success and honour
                 </Typography>
@@ -123,7 +107,7 @@ export default function ComplexGrid() {
             <Grid item xs={12} container className={classes.details}>
               <Grid item xs container  direction="column"  >
                 <Grid item xs>
-                  <Typography gutterBottom variant="h5" gutterBottom style={{fontWeight: 'bold'}}>
+                  <Typography gutterBottom variant="h5" style={{fontWeight: 'bold'}}>
                     2. How to optimize your Facebook & Instagram 
                   </Typography>
                   <Typography gutterBottom variant="subtitle1" className={classes.bold}  >
@@ -155,7 +139,7 @@ export default function ComplexGrid() {
           <Grid item xs={12} container className={classes.details}>
             <Grid item xs container  direction="column"  >
               <Grid item xs>
-                <Typography gutterBottom variant="h5" gutterBottom style={{fontWeight: 'bold'}}>
+                <Typography gutterBottom variant="h5" style={{fontWeight: 'bold'}}>
                   3. How to optimize your Facebook & Instagram 
                 </Typography>
                 <Typography gutterBottom variant="subtitle1" className={classes.bold}  >
@@ -208,7 +192,7 @@ export default function ComplexGrid() {
           <Grid item xs={12} container className={classes.details}>
             <Grid item xs container  direction="column"  >
               <Grid item xs>
-                <Typography gutterBottom variant="h5" gutterBottom style={{fontWeight: 'bold'}}>
+                <Typography gutterBottom variant="h5"  style={{fontWeight: 'bold'}}>
                   4. How to optimize your Facebook & Instagram 
                 </Typography>
                 <Typography gutterBottom variant="subtitle1" className={classes.bold}  >
@@ -234,7 +218,7 @@ export default function ComplexGrid() {
           <Grid item xs={12} container className={classes.details}>
             <Grid item xs container  direction="column"  >
               <Grid item xs>
-                <Typography gutterBottom variant="h5" gutterBottom style={{fontWeight: 'bold'}}>
+                <Typography variant="h5" gutterBottom style={{fontWeight: 'bold'}}>
                   5. How to optimize your Facebook & Instagram 
                 </Typography>
                 <Typography gutterBottom variant="subtitle1" className={classes.bold}  >
@@ -267,7 +251,7 @@ export default function ComplexGrid() {
           <Grid item xs={12} container className={classes.details}>
             <Grid item xs container  direction="column"  >
               <Grid item xs>
-                <Typography gutterBottom variant="h5" gutterBottom style={{fontWeight: 'bold'}}>
+                <Typography gutterBottom variant="h5"  style={{fontWeight: 'bold'}}>
                   6. How to optimize your Facebook & Instagram 
                 </Typography>
                 <Typography gutterBottom variant="subtitle1" className={classes.bold}  >

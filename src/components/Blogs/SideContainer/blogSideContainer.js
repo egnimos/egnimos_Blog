@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Content from "./blogVertical";
+import Content from "./blogSideContent";
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography'
 
@@ -21,8 +21,10 @@ export default function NestedGrid() {
   function FormRow() {
     return (
       <React.Fragment>
-        <Grid item xs={12}>
-          <Content />
+        <Grid container item xs={12} >
+          <Grid item xs={12}>
+            <Content />
+          </Grid>
         </Grid>
       </React.Fragment>
     );
@@ -34,20 +36,14 @@ export default function NestedGrid() {
       <Grid container spacing={3} style={{ alignItems: "center", marginBottom:'20px' }}>
             <Grid item xs={12}>
                 <Typography gutterBottom variant="h4" color="primary" >
-                    Popular Resources
+                    Similar Posts
                 </Typography>
             </Grid>
       <Grid item xs={12}>
         <Grid container spacing={5} style={{ alignItems: "center" }}>
-          <Grid container item xs={12} >
             <FormRow />
-          </Grid>
-          <Grid container item xs={12} >
             <FormRow />
-          </Grid>
-          <Grid container item xs={12} >
             <FormRow />
-          </Grid>
         </Grid>
       </Grid>
     </Grid>
