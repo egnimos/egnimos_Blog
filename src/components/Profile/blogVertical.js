@@ -33,10 +33,10 @@ const useStyles = makeStyles((theme) => ({
     maxHeight: '100%',
   },
   details : {
-    [theme.breakpoints.up("sm")]: {
+    // [theme.breakpoints.up("sm")]: {
       paddingTop: '10px',
       paddingLeft: '30px'
-    }
+    // }
   }
 }));
 
@@ -46,7 +46,7 @@ export default function ComplexGrid() {
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
-        <Grid container spacing={2} >
+        <Grid container>
           <Grid item xs={5}  style={{margin: 'auto', marginBottom: '20px'}} >
           <Card>
             <CardMedia

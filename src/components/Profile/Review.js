@@ -1,7 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import BookContainer from './BookContainer'
+// import BookContainer from './BookContainer'
+import BookContainer from './blogs'
 import Typography from '@material-ui/core/Typography'
 import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
 
@@ -35,14 +36,14 @@ export default function CenteredGrid() {
                 </Grid>
                 <Grid item>
                     <Typography  variant="h6" component="span" color="secondary"  style={{marginLeft : '5px'}}>
-                        Back to Review 
+                        Back to Home
                     </Typography>
                 </Grid>
             </Grid>
         </Grid>
         <Grid item xs={12}>
           <Typography  variant="h2"  color="secondary"  style={{ fontWeight:'bold',marginTop: '30px' }}>
-              98 REVIEWS 
+              Blog Posts
             </Typography>
         </Grid>
         <Grid item xs={12}>

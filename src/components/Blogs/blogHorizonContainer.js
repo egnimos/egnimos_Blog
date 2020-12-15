@@ -42,7 +42,7 @@ export default function NestedGrid() {
                 </Typography>
             </Grid>
       <Grid item xs={12}>
-        <Grid container spacing={1}  style={{ justifyItems: "center" }}>
+        <Grid container style={{ justifyItems: "center" }}>
           <Grid container item xs={12} style={{ justifyContent : "center" }}>
             <FormRow />
           </Grid>

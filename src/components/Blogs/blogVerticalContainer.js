@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography'
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    paddingTop:'10px'
   },
   paper: {
     margin: 'auto',
@@ -31,11 +32,11 @@ export default function NestedGrid() {
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
-      <Grid container spacing={3} style={{ alignItems: "center", marginBottom:'20px' }}>
+      <Grid container  style={{ alignItems: "center", marginBottom:'20px' }}>
             <Grid item xs={12}>
-                <Typography gutterBottom variant="h4" color="primary" >
+                {/* <Typography gutterBottom variant="h4" color="primary" >
                     Popular Resources
-                </Typography>
+                </Typography> */}
             </Grid>
       <Grid item xs={12}>
         <Grid container spacing={5} style={{ alignItems: "center" }}>

@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
-        padding: '25px',
+        padding: '5px',
         paddingTop: '50px',
         paddingRight: '0px',
         background: '#FB614A',
@@ -30,12 +30,36 @@ const useStyles = makeStyles((theme) => ({
     return (
         <div className={classes.root} >
         <Grid container>
+            {/* First Container */}
             <Grid item xs={12}>
+            <Grid container>
+                <Grid item xs={12} style={{color: 'white'}}>
+                    <Grid container direction="row" justify="space-evenly" alignItems="center">
+                        <Grid item > 
+                            <Typography gutterBottom variant="subtitle1"  >
+                                Search
+                            </Typography>
+                        </Grid>
+                        <Grid item >
+                            <Typography gutterBottom variant="subtitle1"  >
+                                Contact
+                            </Typography>
+                        </Grid>
+                        <Grid item >
+                            <Typography gutterBottom variant="subtitle1">
+                                About
+                            </Typography>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Grid>
+            </Grid>
+            {/* <Grid item xs={12}>
                 <Typography gutterBottom variant="subtitle1" color="primary" style={{fontWeight: 'bold'}}>
                     ARNAB'S GENRES
                 </Typography>
-            </Grid>
-            <Grid item xs={12} >
+            </Grid> */}
+            {/* <Grid item xs={12} >
                 <Grid container direction="column" justify="flex-start" alignItems="flex-start"style={{ marginTop: '20px'}}>
                     <Grid item xs={12}>
                         <Typography gutterBottom variant="body2" color="primary" >
@@ -67,25 +91,20 @@ const useStyles = makeStyles((theme) => ({
                         </Typography>
                     </Grid>
                 </Grid>
-                </Grid>
+                </Grid>*/}
             </Grid>
-            <Grid container spacing={1} direction="row" justify="flex-start" alignItems="flex-end" >
+            <Grid container direction="row" justify="space-evenly" alignItems="flex-end" >
                 <Grid item>
                     <Typography gutterBottom variant="body2" color="primary" >
-                        Journal
+                        Privacy Policy
                     </Typography>
                 </Grid>
                 <Grid item>
                     <Typography gutterBottom variant="body2" color="primary" >
-                        Journal
+                        Term & Condition
                     </Typography>
                 </Grid>
-                <Grid item>
-                    <Typography gutterBottom variant="body2" color="primary" >
-                        Journal
-                    </Typography>
-                </Grid>
-            </Grid>
+            </Grid> 
         </div>
     );
 }

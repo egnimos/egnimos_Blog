@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 
 // import Container from "./components/Container/blogContainer";    // single post(better be commented)
-import Container from "./components/Blogs/BlogWebContainer";
-// import Container from './components/Profile/Container/Container'
+// import Container from "./components/Blogs/BlogWebContainer";
+import Container from './components/Profile/Container/Container'
 // import Container from './components/BlogPost/BlogPostContainer'
 
 function App() {

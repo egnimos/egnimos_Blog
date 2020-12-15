@@ -5,12 +5,16 @@ import SideBarContainer from './SideContainer/blogSideContainer'
 import BlogHorizonContainer from './blogHorizonContainer';
 import BlogVerticalData from './blogVerticalContainer';
 import Hidden from '@material-ui/core/Hidden';
+import Navbar from '../Navbar/Navbar'
 
 
 export default function NestedGrid() {
   return (
-    <Grid container style={{ padding: "30px" }}>
+    <Grid container style={{ padding: "30px", width: '70vw', margin: 'auto' }}>
     <Grid container>
+        <Grid item sm={12}>
+          <Navbar/>
+        </Grid>
         <Grid item sm={12}  md ={8}>
           <BlogBigCard />
         </Grid>
