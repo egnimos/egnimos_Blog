@@ -62,7 +62,11 @@ export default function ComplexGrid() {
                 <Typography gutterBottom variant="body2" color="primary" >
                   TENDING
                 </Typography>
+<<<<<<< HEAD
                 <Typography variant="h6" gutterBottom style={{fontWeight: 'bold'}}>
+=======
+                <Typography variant="h5" gutterBottom style={{fontWeight: 'bold'}}>
+>>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
                   Phone looks premium under the gradient light
                 </Typography>
               <Grid item>

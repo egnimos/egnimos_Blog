@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 
 // import Container from "./components/Container/blogContainer";    // single post(better be commented)
+<<<<<<< HEAD
 import Home from "./components/Blogs/BlogWebContainer";
 import Profile from './components/Profile/Container/Container'
 import BlogPost from './components/BlogPost/BlogPost';
@@ -31,6 +32,17 @@ function App() {
         </Switch>
     </div>
     </Router>
+=======
+import Container from "./components/Blogs/BlogWebContainer";
+// import Container from './components/Profile/Container/Container'
+// import Container from './components/BlogPost/BlogPostContainer'
+
+function App() {
+  return (
+    <div className="App">
+      <Container />
+    </div>
+>>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
   );
 }
 

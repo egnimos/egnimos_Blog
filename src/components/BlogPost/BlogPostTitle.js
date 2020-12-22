@@ -65,6 +65,7 @@ export default function ComplexGrid() {
           <Grid item xs={12}  >
             <Grid item xs container className={classes.details} style={{textAlign: 'center'}} direction="column"  >
               <Grid item xs>
+<<<<<<< HEAD
                 <Typography gutterBottom variant="body2"  color="primary" style={{fontWeight: '600'}}>
                   Trending Blog
                 </Typography>
@@ -72,6 +73,15 @@ export default function ComplexGrid() {
                   How to optimize your Fb & Instagram video ads for success and honour
                 </Typography>
                 <Typography variant="body1"  className={classes.bold}>
+=======
+                <Typography gutterBottom variant="body2"  >
+                  Trending Blog
+                </Typography>
+                <Typography variant="h4" gutterBottom className={classes.bold}>
+                  How to optimize your Fb & Instagram video ads for success and honour
+                </Typography>
+                <Typography variant="body1" color="textSecondary" className={classes.bold}>
+>>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
                   Eric Mathew
                 </Typography>
                 <Typography gutterBottom variant="body2" color="textSecondary">
@@ -80,7 +90,11 @@ export default function ComplexGrid() {
               </Grid>
             </Grid>
           </Grid>
+<<<<<<< HEAD
           <Grid item xs={12} style={{marginTop: '20px', marginBottom: '20px',padding: '16px'}} >
+=======
+          <Grid item xs={12} style={{marginTop: '20px', marginBottom: '20px'}} >
+>>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
             <Card >
               <CardMedia
               className={classes.cover}

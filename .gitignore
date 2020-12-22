@@ -1,4 +1,8 @@
 #Ignore all node node_modules file
+<<<<<<< HEAD
 node_modules/
 
 src/dummy.js
+=======
+node_modules/
+>>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181

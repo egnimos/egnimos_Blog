@@ -3,6 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Title from './BlogPostTitle'
 import Details from './BlogPostDetails'
+<<<<<<< HEAD
+=======
+import Navbar from '../Navbar/Navbar'
+>>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
 
 
 
@@ -29,11 +33,21 @@ export default function CenteredGrid() {
     <div className={classes.root}>
       <Grid container direction="column" justify="flex-start" alignItems="center" >
         <Grid item xs={12}>
+<<<<<<< HEAD
+=======
+          <Navbar/>
+        </Grid>
+        <Grid item xs={12}>
+>>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
           <Title/>
         </Grid>
         <Grid item xs={12}>
           <Details />
+<<<<<<< HEAD
         </Grid>
+=======
+        </Grid> 
+>>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
       </Grid>
     </div>
   );

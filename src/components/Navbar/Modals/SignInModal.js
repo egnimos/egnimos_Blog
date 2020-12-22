@@ -33,7 +33,11 @@ const useStyles = makeStyles((theme) => ({
 
     return (
         <div>
+<<<<<<< HEAD
         <Button onClick={handleOpen}>Sign In</Button>
+=======
+        <Button onClick={handleOpen}>SIGNIN</Button>
+>>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
         <Modal
             aria-labelledby="transition-modal-title"
             aria-describedby="transition-modal-description"
