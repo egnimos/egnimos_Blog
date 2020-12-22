@@ -9,11 +9,7 @@ export default function NestedGrid() {
     <Grid container >
       <Grid item xs={12}>
         <Grid container>
-<<<<<<< HEAD
           {/* <HeaderContainer /> */}
-=======
-          <HeaderContainer />
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
         </Grid>
         <Grid 
           container
@@ -22,11 +18,7 @@ export default function NestedGrid() {
             padding: "20px",
           }}
         >
-<<<<<<< HEAD
           {/* <Blog /> */}
-=======
-          <Blog />
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
         </Grid>
       </Grid>
     </Grid>

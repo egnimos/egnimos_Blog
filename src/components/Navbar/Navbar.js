@@ -1,8 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
-=======
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
 import AppBar from '@material-ui/core/AppBar';
 import Drawer from '@material-ui/core/Drawer';
 import Hidden from '@material-ui/core/Hidden';
@@ -10,31 +7,21 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
 import Toolbar from '@material-ui/core/Toolbar';
-<<<<<<< HEAD
 import MenuItem from '@material-ui/core/MenuItem';
-=======
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import SignUp from './Modals/SignUpModal';
-<<<<<<< HEAD
 import SignIn from './Modals/SignInModal';
 
-=======
-import SignIn from './Modals/SignInModal'
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
 
 
 const drawerWidth = 240;
 const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
-<<<<<<< HEAD
     fontSize: '1rem',
     fontWeight: '500',
-=======
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
     flexGrow: 1,
   },
   drawer: {
@@ -45,7 +32,6 @@ const useStyles = makeStyles(theme => ({
   },
   appBar: {
     zIndex: theme.zIndex.drawer + 1,
-<<<<<<< HEAD
     paddingTop: '30px',
     paddingBottom: '20px',
     boxShadow: 'none',
@@ -55,12 +41,6 @@ const useStyles = makeStyles(theme => ({
   menuButton: {
     marginRight: theme.spacing(2),
     [theme.breakpoints.up('lg')]: {
-=======
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-    [theme.breakpoints.up('sm')]: {
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
       display: 'none',
     },
   },
@@ -82,26 +62,17 @@ const useStyles = makeStyles(theme => ({
   },
   sectionDesktop: {
     display: 'none',
-<<<<<<< HEAD
     [theme.breakpoints.up('lg')]: {
-=======
-    [theme.breakpoints.up('md')]: {
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
       display: 'flex',
     },
   },
   sectionMobile: {
     display: 'flex',
-<<<<<<< HEAD
     [theme.breakpoints.up('lg')]: {
-=======
-    [theme.breakpoints.up('md')]: {
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
       display: 'none',
     },
   },
   navAlign: {
-<<<<<<< HEAD
     [theme.breakpoints.down('md')]: {
       display: 'flex',
       flexDirection: 'column',
@@ -126,14 +97,6 @@ const useStyles = makeStyles(theme => ({
       alignItems: 'center',
       width: '100%',
       margin:'0px',
-=======
-    [theme.breakpoints.down('xs')]: {
-      display: 'flex',
-      justifyContent: 'center',
-      width: '100%',
-      margin:'0px',
-      flexDirection: 'column'
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
     },
   }
 }));
@@ -146,7 +109,6 @@ function handleDrawerToggle() {
   }
 const drawer = (
           <div >
-<<<<<<< HEAD
             <Grid container spacing={5} direction="row" className={classes.navAlign}  justify="space-evenly" alignItems="center">
               <Grid item className={classes.navAlignItem} style={{paddingLeft: '300px'}}>
                     <Grid container className={classes.mobItemAlign} direction="row" justify="space-between" spacing={2} alignItems="center">
@@ -232,15 +194,6 @@ const drawer = (
 
               </Grid> */}
               
-=======
-            <Grid container spacing={3} direction="row" className={classes.navAlign} justify="flex-end" alignItems="center">
-              <Grid item>
-                <SignIn/>
-              </Grid>
-              <Grid item>
-                <SignUp/>
-              </Grid>
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
             </Grid>
           </div>
   );
@@ -248,11 +201,7 @@ const drawer = (
 
 return (
     <div className={classes.root}>
-<<<<<<< HEAD
       <AppBar position="absolute" className={classes.appBar}>
-=======
-      <AppBar position="fixed" className={classes.appBar}>
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
         <Toolbar>
           <IconButton
             color="inherit"
@@ -266,11 +215,7 @@ return (
           <Typography variant="h6" noWrap>
             Responsive drawer
           </Typography>
-<<<<<<< HEAD
           <Hidden mdDown >
-=======
-          <Hidden xsDown >
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
             <div className={classes.grow}>
               {drawer}
             </div>
@@ -280,11 +225,7 @@ return (
       
       <nav className={classes.drawer}>
         {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
-<<<<<<< HEAD
         <Hidden mdUp implementation="css">
-=======
-        <Hidden smUp implementation="css">
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
           <Drawer
             variant="temporary"
             anchor={theme.direction === 'rtl' ? 'right' : 'left'}
@@ -308,7 +249,6 @@ return (
   );
 }
 
-<<<<<<< HEAD
 export default ResponsiveDrawer;
 
 
@@ -518,6 +458,3 @@ export default ResponsiveDrawer;
 //     </header>
 //   );
 // }
-=======
-export default ResponsiveDrawer;
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181

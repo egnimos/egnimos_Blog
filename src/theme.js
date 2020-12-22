@@ -21,20 +21,12 @@ const theme = createMuiTheme({
   },
   palette: {
     primary: {
-<<<<<<< HEAD
       main: '#0E2EA5',
       // main: '#d4bff9',
       // main: "#fff",
     },
     secondary: {
       main: "#2248C1",
-=======
-      main: "#5FCAAF",
-      // main: "#fff",
-    },
-    secondary: {
-      main: "#FB614A",
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
     },
     lightGreen: {
       main: lightGreen,
@@ -112,7 +104,6 @@ const theme = createMuiTheme({
           fontSize: "1.4rem",
         },
         [breakpoints.down("sm")]: {
-<<<<<<< HEAD
           fontSize: "1.2rem",
         },
       },
@@ -124,9 +115,6 @@ const theme = createMuiTheme({
         },
         [breakpoints.down("sm")]: {
           fontSize: "1rem",
-=======
-          fontSize: "1.2",
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
         },
       },
     },
