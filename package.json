@@ -11,10 +11,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-<<<<<<< HEAD
     "react-router-dom": "^5.2.0",
-=======
->>>>>>> 4b5de2cfeda88d075cd88bd028e6d7eaa4c62181
     "react-scripts": "3.4.3"
   },
   "scripts": {
