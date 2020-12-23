@@ -41,7 +41,7 @@ export default function NestedGrid() {
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
-      <Grid container style={{ alignItems: "center", marginBottom:'20px' }}>
+      <Grid container style={{ alignItems: "center"}}>
       <Grid item xs={12}>
         <Grid container spacing={1}  style={{ justifyItems: "center" }}>
           <Grid container item xs={12} style={{ justifyContent : "center" }}>
