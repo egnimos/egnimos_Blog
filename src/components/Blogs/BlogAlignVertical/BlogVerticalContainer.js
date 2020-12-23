@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Content from "./blogVertical";
+import Content from "./BlogVertical";
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography'
 
@@ -14,6 +14,14 @@ const useStyles = makeStyles((theme) => ({
         margin: 'auto',
         boxShadow: 'none',
     },
+    BlogHeading: {
+        [theme.breakpoints.up("sm")]: {
+          paddingLeft: '24px',
+        },
+        [theme.breakpoints.down("xs")]: {
+          paddingBottom: '15px',
+        },
+      }
     }));
 
     export default function NestedGrid() {
@@ -33,13 +41,13 @@ const useStyles = makeStyles((theme) => ({
         <div className={classes.root}>
         <Paper className={classes.paper}>
         <Grid container style={{ alignItems: "center", marginBottom:'20px' }}>
-                {/* <Grid item xs={12}>
-                    <Typography gutterBottom variant="h4" color="primary" >
+                <Grid item xs={12}>
+                    <Typography gutterBottom variant="h4"  className={classes.BlogHeading} style={{fontWeight: '700'}}  >
                         Popular Resources
                     </Typography>
-                </Grid> */}
+                </Grid>
         <Grid item xs={12}>
-            <Grid container style={{ alignItems: "center" }}>
+            <Grid container >
             <Grid container item xs={12} >
                 <FormRow />
             </Grid>

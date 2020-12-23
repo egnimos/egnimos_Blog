@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 // import Container from "./components/Container/blogContainer";    // single post(better be commented)
-import Home from "./components/Blogs/BlogWebContainer";
+import Home from "./components/Blogs/Home";
 import Profile from './components/Profile/Container/Container'
 import BlogPost from './components/BlogPost/BlogPost';
 import {

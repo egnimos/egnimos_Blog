@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 // import BookContainer from './BookContainer'
-import BookContainer from './blogs'
+import BlogContainer from './blogs'
 import Typography from '@material-ui/core/Typography'
 import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
 import { Link  } from "react-router-dom";
@@ -52,7 +52,7 @@ export default function CenteredGrid() {
             </Typography>
         </Grid>
         <Grid item xs={12}>
-          <BookContainer />
+          <BlogContainer />
         </Grid>
       </Grid>
     </div>

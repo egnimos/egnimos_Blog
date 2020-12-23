@@ -70,9 +70,6 @@ export default function ComplexGrid() {
           <Grid item xs={12} container className={classes.details}>
             <Grid item xs container  direction="column" >
               <Grid item xs>
-                <Typography gutterBottom variant="body2" color="primary" >
-                  BLOG POST
-                </Typography>
                 <Typography variant="h4" gutterBottom style={{fontWeight: 'bold'}}>
                   How to optimize your Facebook & Instagram video ads for success
                 </Typography>
@@ -82,7 +79,7 @@ export default function ComplexGrid() {
               </Grid>
               <Grid item style={{margin: '20px',marginLeft: '0px'}}>
               <Button variant="contained" color="primary">
-                Primary
+                Read More
               </Button>
               </Grid>
             </Grid>

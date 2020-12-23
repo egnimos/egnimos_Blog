@@ -114,7 +114,7 @@ const theme = createMuiTheme({
           fontSize: "1.15rem",
         },
         [breakpoints.down("sm")]: {
-          fontSize: "1rem",
+          fontSize: "0.9rem",
         },
       },
     },

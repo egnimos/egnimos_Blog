@@ -26,7 +26,22 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.up("sm")]: {
         paddingLeft: '30px'
         }
-    }
+    },
+    heading: {
+      lineHeight: '120%',
+    },
+    readMoreWrapper: {
+      color: 'black',
+      textDecoration: 'underline',
+      '&:hover': {
+        color: theme.palette.primary.main,
+        cursor: 'pointer',
+     },
+    },
+    readMore: {
+      fontWeight: 'bold',
+      fontSize: '0.7em',
+    },
     }));
 
     export default function ComplexGrid() {
@@ -46,16 +61,23 @@ const useStyles = makeStyles((theme) => ({
             </Card>
             </Grid>
             <Grid item xs={7}  container className={classes.details}>
-                <Grid item xs container direction="column" >
-                <Grid item xs>
-                    <Typography  variant="body2" color="primary" >
-                    TENDING
-                    </Typography>
-                    <Typography variant="subtitle1" style={{fontWeight:'bold'}}>
-                    Phone looks premium under the gradient light
-                    </Typography>
-                </Grid>
-                </Grid>
+            <Grid item xs container direction="column" >
+              <Grid item xs>
+                <Typography gutterBottom variant="subtitle2" color="primary" >
+                  TENDING
+                </Typography>
+                <Typography variant="subtitle2" gutterBottom className={classes.heading}  style={{fontWeight: 'bold'}}>
+                  Webinar: Imporve content marketing through visual storytelling
+                </Typography>
+              <Grid item>
+                <div className={classes.readMoreWrapper}>
+                <Typography variant="body2" className={classes.readMore}>
+                  Read more
+                </Typography>
+                </div>
+              </Grid>
+            </Grid>
+            </Grid>
             </Grid>
             </Grid>
         </Paper>

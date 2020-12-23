@@ -13,6 +13,14 @@ const useStyles = makeStyles((theme) => ({
     margin: 'auto',
     boxShadow: 'none',
   },
+  BlogHeading: {
+    [theme.breakpoints.up("sm")]: {
+      paddingLeft: '24px',
+    },
+    [theme.breakpoints.down("xs")]: {
+      paddingBottom: '15px',
+    },
+  }
 }));
 
 export default function NestedGrid() {
@@ -35,9 +43,9 @@ export default function NestedGrid() {
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
-      <Grid container spacing={3} style={{ alignItems: "center", marginBottom:'20px' }}>
+      <Grid container style={{ alignItems: "center", margin:'15px 0' }}>
             <Grid item xs={12}>
-                <Typography  variant="h4" color="primary" >
+                <Typography  gutterBottom variant="h4" className={classes.BlogHeading} style={{fontWeight: '700'}} >
                     Latest BlogPost
                 </Typography>
             </Grid>
