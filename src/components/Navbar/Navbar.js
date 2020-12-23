@@ -13,7 +13,7 @@ import Grid from '@material-ui/core/Grid';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import SignUp from './Modals/SignUpModal';
 import SignIn from './Modals/SignInModal';
-
+import Search from './Search'
 
 
 const drawerWidth = 240;
@@ -127,11 +127,11 @@ const drawer = (
                           Blog Post
                         </Link>
                       </Grid>
-                      <Grid item>
+                      {/* <Grid item>
                           <Link  to="/customerservice" style={{textDecoration: 'none',color: 'inherit'}} >
                             Customer Services
                           </Link>
-                      </Grid>
+                      </Grid> */}
                     </Grid>
                 </Grid>
 
@@ -140,10 +140,7 @@ const drawer = (
                       <Grid item>
                         <Grid container className={classes.mobItemAlign}>
                           <Grid item>
-                            <SignIn/>
-                          </Grid>
-                          <Grid item>
-                            <SignIn/>
+                            <Search/>
                           </Grid>
                           <Grid item>
                             <SignIn/>
