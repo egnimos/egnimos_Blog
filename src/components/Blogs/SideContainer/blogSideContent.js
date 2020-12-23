@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     },
     readMore: {
       fontWeight: 'bold',
-      fontSize: '0.7em',
+      fontSize: '0.9em',
     },
     }));
 
