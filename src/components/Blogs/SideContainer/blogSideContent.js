@@ -69,14 +69,14 @@ const useStyles = makeStyles((theme) => ({
                 <Typography variant="subtitle2" gutterBottom className={classes.heading}  style={{fontWeight: 'bold'}}>
                   Webinar: Imporve content marketing through visual storytelling
                 </Typography>
-              <Grid item>
-                <div className={classes.readMoreWrapper}>
-                <Typography variant="body2" className={classes.readMore}>
-                  Read more
-                </Typography>
-                </div>
+                <Grid item>
+                  <div className={classes.readMoreWrapper}>
+                  <Typography variant="body2" className={classes.readMore}>
+                    Read more
+                  </Typography>
+                  </div>
+                </Grid>
               </Grid>
-            </Grid>
             </Grid>
             </Grid>
             </Grid>
