@@ -127,11 +127,11 @@ const drawer = (
                           Blog Post
                         </Link>
                       </Grid>
-                      {/* <Grid item>
-                          <Link  to="/customerservice" style={{textDecoration: 'none',color: 'inherit'}} >
-                            Customer Services
+                      <Grid item>
+                          <Link  to="/category" style={{textDecoration: 'none',color: 'inherit'}} >
+                            Category
                           </Link>
-                      </Grid> */}
+                      </Grid>
                     </Grid>
                 </Grid>
 

@@ -5,6 +5,8 @@ import "./App.css";
 import Home from "./components/Blogs/Home";
 import Profile from './components/Profile/Container/Container'
 import BlogPost from './components/BlogPost/BlogPost';
+import Category from './components/Category/index';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,6 +26,9 @@ function App() {
           </Route>
           <Route exact path="/blogpost">
             <BlogPost />
+          </Route>
+          <Route exact path="/category">
+            <Category />
           </Route>
           <Route path="/">
             <Home />
