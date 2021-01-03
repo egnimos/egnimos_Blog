@@ -64,7 +64,7 @@ export default function NestedGrid() {
                         Category
                     </Typography>
                     <Typography  gutterBottom variant="h6"  className={classes.BlogHeading} style={{marginBottom: '20px'}}>
-                        It containes various blogs including tech, sports, dance, finance, game, lifestyle etc.
+                        It containes various blogs including tech, sports etc.
                     </Typography>
                 </Grid>
                 <Grid item xs={12}>

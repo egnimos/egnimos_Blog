@@ -6,6 +6,7 @@ import Home from "./components/Blogs/Home";
 import Profile from './components/Profile/Container/Container'
 import BlogPost from './components/BlogPost/BlogPost';
 import Category from './components/Category/index';
+import Account from './components/EditProfile/Profile';
 
 import {
   BrowserRouter as Router,
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route exact path="/category">
             <Category />
+          </Route>
+          <Route exact path="/account">
+            <Account />
           </Route>
           <Route path="/">
             <Home />

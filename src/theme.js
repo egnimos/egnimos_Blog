@@ -51,6 +51,19 @@ const theme = createMuiTheme({
     secondary: "Brawler",
   },
   overrides: {
+    MuiOutlinedInput: {
+      root: {
+        "& $notchedOutline": {
+          borderColor: "green"
+        },
+        "&$focused $notchedOutline": {
+          borderColor: "purple"
+        },
+        "&&& $input": {
+          padding: "10.5px 14px"
+        }
+      }
+    },
     MuiTypography: {
       h1: {
         fontSize: "6rem",

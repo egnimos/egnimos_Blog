@@ -132,6 +132,11 @@ const drawer = (
                             Category
                           </Link>
                       </Grid>
+                      <Grid item>
+                          <Link  to="/account" style={{textDecoration: 'none',color: 'inherit'}} >
+                            Account
+                          </Link>
+                      </Grid>
                     </Grid>
                 </Grid>
 
